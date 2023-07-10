@@ -69,9 +69,9 @@
 
 .featured-description {
     color: rgba(39, 39, 39, 0.60);
-
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 
@@ -159,6 +159,19 @@
 .insta-pic {
     width: 220px;
     height: 300px;
-    margin-right: 20px;
-    margin-top: 48px;
+    margin-right: 38px;
+}
+/* latest deal */
+.deal-input-class {
+    border: none;
+    padding: 15px 300px 15px 20px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.latest-container {
+    border-radius: 8px;
+    background-image: url("images/Rectangle 9.png");
+    background-repeat: no-repeat;
+    padding: 80px 90px;
 }
