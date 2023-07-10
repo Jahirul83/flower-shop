@@ -15,6 +15,12 @@
     border: none;
 }
 
+.section-class {
+    margin: 30px 100px;
+    text-align: center;
+    padding: 30px 0px 40px;
+}
+
 /* header */
 
 /* banner styles */
@@ -47,4 +53,103 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
+}
+
+/* main styles */
+/* main {
+    max-width: 1140px;
+} */
+
+/* featured section */
+
+.featured-title {
+    color: #272727;
+    font-size: 30px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.featured-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.featured-images img {
+    height: 180px;
+    width: 150px;
+    padding: 100px 60px 50px 60px;
+}
+
+.flower-border {
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-pic1 {
+
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.flower-pic2 {
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.flower-pic3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-caption {
+    color: #272727;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+/* box styles */
+.box-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 90px 0px;
+    gap: 40px;
+
+}
+
+/* Hot deal section style */
+.deal-section {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 200px;
+    gap: 200px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.deal-info {
+    text-align: center;
+}
+
+.deal-flower-img {
+    width: 200px;
+    height: 300px;
 }
