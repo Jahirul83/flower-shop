@@ -153,3 +153,12 @@
     width: 200px;
     height: 300px;
 }
+
+/* Instagram style */
+
+.insta-pic {
+    width: 220px;
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 48px;
+}
