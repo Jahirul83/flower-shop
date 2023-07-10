@@ -9,7 +9,7 @@
     color: #FFF;
     font-size: 15px;
     font-weight: 500;
-    border-radius: 8px;
+    border-radius: 10px;
     background: #E55473;
     padding: 15px 20px;
     border: none;
@@ -56,9 +56,6 @@
 }
 
 /* main styles */
-/* main {
-    max-width: 1140px;
-} */
 
 /* featured section */
 
@@ -116,7 +113,7 @@
 .box-container {
     display: flex;
     justify-content: center;
-    border-radius: 8px;
+    border-radius: 10px;
     background: rgba(39, 39, 39, 0.05);
     padding: 90px 0px;
     gap: 40px;
@@ -127,7 +124,7 @@
 .deal-section {
     display: flex;
     justify-content: center;
-    border-radius: 8px;
+    border-radius: 10px;
     background: rgba(229, 84, 115, 0.05);
     padding: 80px 200px;
     gap: 200px;
@@ -161,17 +158,60 @@
     height: 300px;
     margin-right: 38px;
 }
+
 /* latest deal */
 .deal-input-class {
     border: none;
     padding: 15px 300px 15px 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     background: #FFF;
 }
 
 .latest-container {
-    border-radius: 8px;
+    border-radius: 10px;
     background-image: url("images/Rectangle 9.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 80px 90px;
+}
+
+/* footer style */
+/* footer{
+    display: flex;
+    justify-content: center;
+    background: #111010;
+   
+} */
+.footer-class {
+    background: #111010;
+    text-align: center;
+    padding: 100px 0px;
+    /* max-width: 500px; */
+}
+
+.footer-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer-flower{
+    color: #E55473;
+
 }
