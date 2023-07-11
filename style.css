@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+
 .btn-primary {
     color: #FFF;
     font-size: 15px;
@@ -22,7 +23,43 @@
 }
 
 /* header */
+/* navbar */
+nav {
+    border-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: #f897ac;
+    width: 100%;
+}
 
+.nav-logo {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 800;
+}
+.nav-title{
+    color: #E55473;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 10px 25px;
+}
+nav>ul li:hover{
+    background: #E55473;
+    border-radius: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 /* banner styles */
 .banner {
     display: flex;
@@ -153,7 +190,14 @@
 }
 
 /* Instagram style */
-
+.insta-container{
+    display: inline;
+    justify-items: center;
+}
+.insta-info{
+    background-color: aqua;
+    width: 50%
+}
 .insta-pic {
     width: 220px;
     height: 300px;
