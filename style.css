@@ -75,13 +75,13 @@
 .featured-images {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .featured-images img {
     height: 180px;
     width: 150px;
-    padding: 100px 60px 50px 60px;
+    padding: 80px 30px 0px 30px;
 }
 
 .flower-border {
@@ -107,6 +107,7 @@
     color: #272727;
     text-align: center;
     text-decoration-line: underline;
+    margin-top: 20px;
 }
 
 /* box styles */
@@ -185,14 +186,18 @@
 } */
 .footer-class {
     background: #111010;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
     padding: 100px 0px;
     /* max-width: 500px; */
 }
-
+.footer-container{
+    width: 50%;
+    text-align: center;
+}
 .footer-title {
     color: #FFFFFF;
-    text-align: center;
     font-size: 48px;
     font-weight: 800;
 
@@ -200,7 +205,6 @@
 
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
     font-size: 15px;
     font-weight: 400;
 }
