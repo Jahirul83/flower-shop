@@ -262,3 +262,33 @@ nav a {
     color: #E55473;
 
 }
+/* contact us */
+.contact-container
+{
+    display: flex;
+    justify-content: center;
+}
+.contact-email{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 200px 10px 5px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+.contact-text{
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    margin-bottom: 30px;
+
+}
+.contact-section
+{
+    background-color: #f897ac;
+    margin: 30px 100px;
+    text-align: center;
+    padding: 30px 0px 40px;
+    border-radius: 10px;
+
+}
